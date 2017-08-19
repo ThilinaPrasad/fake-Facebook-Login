@@ -1,0 +1,121 @@
+body{
+    background-color: #e9ebee;
+    margin: 0;
+}
+header{
+    width: 100vw;
+    height:80px;
+    background-color: #3b5998;
+    position: relative;
+
+}
+
+
+.logo {
+    margin-left: 7%;
+    margin-top: -1%;
+    width:300px;
+    height:110px;
+}
+
+.signup{
+    font-family: Helvetica, Arial, sans-serif;
+    text-decoration: none;
+ padding: 7px;
+    background-color: #42b72a;
+    color: white;
+    border-radius: 3px;
+    position: relative;
+    top: -38px;
+    left: -30px;
+
+}
+
+.signup:hover{
+    background-color: #4bcc30;
+}
+
+.head{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.wrapper_2{
+    background-color: white;
+    margin: 5% 27%;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 50px;
+}
+
+.form{
+    margin: auto;
+    width: 60%;
+}
+
+input[type="text"],input[type=password],input[type=submit]{
+    padding: 8px;
+    width: 94%;
+    margin: 7px;
+}
+
+input[type=submit]{
+    background-color: #4267b2;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+input[type=submit]:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+
+.links{
+    font-size: 12px;
+    text-decoration: none;
+    color:#3b5998;
+}
+
+.links:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+ul{
+    list-style: none;
+    float: left;
+    padding-bottom: 10px;
+    border-bottom: solid gainsboro 1px;
+    margin-left: 10%;
+}
+
+ul li {
+    display: inline;
+    margin: 15px;
+}
+
+a {
+    text-decoration: none;
+    color:#3b5998;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.table a{
+    margin: 10px;
+}
+
+.table{
+    margin-bottom: 5px;
+}
